@@ -1,3 +1,11 @@
+img {
+  width: 100%;
+}
+
+p {
+  font-size: 20px;
+}
+
 .header {
   background-color: #203843;
 }
@@ -26,6 +34,8 @@
   color: #203843;
 }
 
+
+
 .nav-item>a {
   color: aliceblue;
 }
@@ -51,6 +61,72 @@
   color: #C1A994;
   font-size: 50px;
 }
+
+.line {
+  width: 100px;
+  border-top: 3px solid #203843;
+  content: '';
+  position: absolute;
+  margin-top: -10px;
+}
+
+.firstDiv {
+  margin: 50px 0px 50px 0px;
+  padding: 50px 150px 50px 150px;
+  background-color: #D9D9D9;
+}
+
+.secondDiv {
+  margin-top: 0px;
+  padding: 0px 150px 50px 150px;
+  background-color: #ffffff;
+}
+
+.textoSobre {
+  margin-top: 60px;
+}
+
+.textoSobre2 {
+  margin-top: 160px;
+  margin-bottom: 50px;
+}
+
+.line2 {
+  width: 100px;
+  border-top: 3px solid #203843;
+  content: '';
+  position: relative;
+  margin: 150px 0px -150px 0px;
+  
+
+}
+
+.line3 {
+  width: 100px;
+  border-top: 3px solid #203843;
+  content: '';
+  position: relative;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.btnSolicitarOrcamentoSobre {
+  background-color: #203843;
+  color: #d9d9d9;
+  border-radius: 2px;
+  width: 191.25px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.btnSolicitarOrcamentoSobre:hover {
+  background-color: #47555C;
+  color: #d9d9d9;
+}
+
 
 footer {
   background-color: #203843;
@@ -98,13 +174,25 @@ footer {
 }
 
 /*Versão Mobile*/
-@media(max-width: 991px) {
+@media(max-width: 390px) {
+  
   .btnSolicitarOrcamento {
     background-color: #C1A994;
     color: #203843;
     border-radius: 2px;
     width: 191.25px;
     display: flex;
+  }
+
+  .line {
+    width: 100px;
+    border-top: 3px solid #203843;
+    content: '';
+    position: relative;
+    bottom: 2em;
+    margin-left: 0px;
+    margin-top: 60px;
+    margin-bottom: 0px;
   }
 
   .navbar-nav {
@@ -133,5 +221,67 @@ footer {
   .demaisInformacoes {
     padding-right: 0px;
     padding-left: 0px;
+  }
+
+  .firstDiv {
+    margin: 30px 10px 30px 10px;
+    padding: 30px 30px 30px 30px;
+    background-color: #D9D9D9;
+  }
+
+  .firstImg {
+    width: 100%;
+  }
+
+  .textoSobre {
+    margin-top: -20px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .secondDiv {
+    margin: 30px 10px 30px 10px;
+    padding: 30px 30px 0px 30px;
+    background-color: #ffffff;
+  }
+
+  .secondImg {
+    width: 100%;
+  }
+
+  .textoSobre2 {
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+
+  .line2 {
+    width: 100px;
+    border-top: 3px solid #203843;
+    content: '';
+    position: relative;
+    margin-left: 0px;
+    margin-top: 30px;
+    margin-bottom: -40px;
+
+  }
+
+  .line3 {
+    width: 100px;
+    border-top: 3px solid #203843;
+    content: '';
+    position: relative;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+
+  .btnSolicitarOrcamentoSobre {
+    background-color: #203843;
+    color: #d9d9d9;
+    border-radius: 2px;
+    width: 191.25px;
+    display: flex;
   }
 }
