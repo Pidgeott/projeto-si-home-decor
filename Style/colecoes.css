@@ -142,7 +142,7 @@
   }
 
   #carouselExample {
-    visibility: hidden;
+    display: none;
   }
   
   /*Versão Mobile*/
@@ -213,11 +213,13 @@
       }
 
       .fotos-colecoes {
-        visibility: hidden;
+        display: none;
       }
 
       #carouselExample {
-        visibility: visible;
+        margin-top: 0px;
+        margin-bottom: 40px;
+        display: block;
       }
 
   }
