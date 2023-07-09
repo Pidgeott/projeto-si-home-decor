@@ -25,9 +25,9 @@ O protótipo foi criado no Figma com interações e animações para simular a e
 Para visualizar o protótipo do SI HOME DECOR, acesse o link a seguir: https://www.figma.com/file/4ONhW3pG74R56wXd23ivUB/Design-Si-Home-Decor?type=design&mode=design&t=9D1Js6v7lLGqU6Lu-1
 
 
-# **Protótipos versão web e mobile:**
-!![Protótipo versão web](Figma/si-home-decor-web-figma.png) ![Protótipo versão mobile](Figma/si-home-decor-mobile-figma.png)
-
+## **Protótipos versão mobile e web:**
+![Protótipo versão mobile](Figma/si-home-decor-mobile-figma.png)
+![Protótipo versão web](Figma/si-home-decor-web-figma.png) 
 
 
 **Observações Finais:**
