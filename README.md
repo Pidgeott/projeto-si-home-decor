@@ -28,9 +28,8 @@ Para visualizar o protótipo do SI HOME DECOR, acesse o link a seguir: https://w
 ## **Protótipos versão mobile e web:**
 <p align="center">
   <img src="Figma/si-home-decor-mobile-figma.png" alt="Protótipo versão mobile">
+  <img src="Figma/si-home-decor-web-figma.png" alt="Protótipo versão web">
 </p>
-![Protótipo versão web](Figma/si-home-decor-web-figma.png) 
-
 
 **Observações Finais:**
 Este protótipo tem como objetivo fornecer uma visão clara e interativa do design proposto para o site da marcenaria SI HOME DECOR. 
