@@ -26,10 +26,10 @@ Para visualizar o protótipo do SI HOME DECOR, acesse o link a seguir: https://w
 
 
 **Protótipo versão web:**
-!(Figma/si-home-decor-web-figma.png)
+!![Protótipo versão web](Figma/si-home-decor-web-figma.png)
 
 **Protótipo versão mobile:**
-!(Figma/si-home-decor-mobile-figma.png)
+![Protótipo versão mobile](Figma/si-home-decor-mobile-figma.png)
 
 
 **Observações Finais:**
