@@ -143,7 +143,9 @@ img {
   
   }
   .image-01{
-    height: 600px;
+    height: 700px;
+    width: 100%;
+    
   }
   
   .text-title {
@@ -153,19 +155,21 @@ img {
     transform: translate(-50%, -50%);
     z-index: 2;
     text-align: center;
-    color: #203843;
-  }
-  
-  .text-title .text-01 h1 {
-    font-size: 50px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.text-title .text-01 h1 {
+    font-size: 60px;
     margin-bottom: 40px;
-  }
-  
-  .text-title .text-02 h2 {
-    font-size: 24px;
+}
+
+.text-title .text-02 h2 {
+    font-size: 30px;
     margin-bottom: 0;
-    color: #203843;
-  }
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
 
   .container-form {
     width: 100%;
@@ -315,6 +319,7 @@ img {
 .map-box{
   margin-top: -300px;
   width: 100%;
+  height: 502px;
   background-color: #203843;
   border: 2px;
   margin-bottom: 50px;
@@ -571,7 +576,7 @@ img {
   .line-03{
      margin-top: 80px;
     width: 100%;
-    margin-bottom: -50px;
+    margin-bottom: -80px;
   }
   .line-04{
     width: 100%;

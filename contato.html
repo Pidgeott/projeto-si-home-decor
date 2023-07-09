@@ -88,7 +88,7 @@
         </div>
         <div class="form-group">
           <label for="telefone">Telefone:</label>
-          <input type="tel" id="telefone" font-family="Noto" pattern="^\([1-9]{2}\) [2-9][0-9]{3,4}\-[0-9]{4}$" placeholder="(XX) XXXX-XXXX" maxlength="14" required>       
+          <input type="tel" id="telefone" font-family="Noto" pattern="^\([1-9]{2}\) [2-9][0-9]{3,4}\-[0-9]{4}$" placeholder="(XX) XXXX-XXXX" maxlength="15" required>       
           
           <script>
             const telefoneInput = document.getElementById('telefone');
@@ -97,15 +97,18 @@
               const input = event.target;
               const value = input.value.replace(/\D/g, '');
               
-              if (value.length >= 2) {
+              if (value.length >= 8) {
                 const ddd = value.substring(0, 2);
-                const numero = value.substring(2);
-                input.value = `(${ddd}) ${numero}`;
+                const prefixo = value.substring(2, 7);
+                const numero = value.substring(7);
+                input.value = `(${ddd}) ${prefixo}-${numero}`;
               } else {
                 input.value = value;
               }
             });
           </script>
+          
+          
         
         </div>
 
@@ -172,7 +175,7 @@
     
     <div class="line-03"></div>
     <div class="map-box">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.058443547115!2d-46.65883838940736!3d-23.673867878633867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce454c0ba14885%3A0x2c7d36de0e415c86!2sR.%20Ant%C3%B4nio%20Loti%2C%208%20-%20Jardim%20Zaira%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004405-230!5e0!3m2!1spt-BR!2sbr!4v1688855752812!5m2!1spt-BR!2sbr" border-radius="4px" ; width="95%" height="500" style="border:1;" allowfullscreen="" loading="fast" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.058443547115!2d-46.65883838940736!3d-23.673867878633867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce454c0ba14885%3A0x2c7d36de0e415c86!2sR.%20Ant%C3%B4nio%20Loti%2C%208%20-%20Jardim%20Zaira%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004405-230!5e0!3m2!1spt-BR!2sbr!4v1688855752812!5m2!1spt-BR!2sbr" border-radius="4px" ; width="95%" class="container" height="500" style="border:1;" allowfullscreen="" loading="fast" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <div class="line-04"></div>
 
