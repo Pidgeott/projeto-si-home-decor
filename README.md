@@ -22,7 +22,7 @@ O SI HOME DECOR é um site de marcenaria que oferece serviços personalizados de
 O protótipo foi criado no Figma com interações e animações para simular a experiência de navegação pelo site. Os usuários podem clicar em botões, navegar pelos menus e visualizar transições suaves entre as telas, proporcionando uma experiência mais próxima de um site real.
 
 **Como Acessar o Protótipo:**
-Para visualizar o protótipo do SI HOME DECOR, acesse o link a seguir: https://www.figma.com/file/4ONhW3pG74R56wXd23ivUB/Design-Si-Home-Decor?type=design&mode=design&t=9D1Js6v7lLGqU6Lu-1
+Para visualizar o protótipo do SI HOME DECOR, acesse o link a seguir. https://www.figma.com/file/4ONhW3pG74R56wXd23ivUB/Design-Si-Home-Decor?type=design&mode=design&t=9D1Js6v7lLGqU6Lu-1
 
 
 ## **Protótipos versão mobile e web:**
