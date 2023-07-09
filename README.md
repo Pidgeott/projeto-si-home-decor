@@ -26,7 +26,9 @@ Para visualizar o protótipo do SI HOME DECOR, acesse o link a seguir: https://w
 
 
 ## **Protótipos versão mobile e web:**
-![Protótipo versão mobile](Figma/si-home-decor-mobile-figma.png)
+<p align="center">
+  <img src="Figma/si-home-decor-mobile-figma.png" alt="Protótipo versão mobile">
+</p>
 ![Protótipo versão web](Figma/si-home-decor-web-figma.png) 
 
 
