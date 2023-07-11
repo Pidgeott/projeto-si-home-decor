@@ -142,6 +142,14 @@
     margin-right: 100px;
     width: auto;
   }
+  
+  .fc-v1 {
+    height: 700px !important;
+  }
+
+  .fc-v2 {
+    height: 600px !important;
+  }
 
   #carouselExample {
     display: none;
@@ -152,44 +160,40 @@
   .orcamento {
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 100%;
-    
+    width: 55%;
   }
 
-
-  /*.texto-moveis {
-    background-color: #d9d9d9;
-    width: auto;
-    margin-left: 550px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    text-align: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    padding-left: 50px;
-    padding-right: 50px;
-    color: #203843;
-  }
-
-  .texto-moveis h1 {
-    width: 300px;
-    font-size: 30pt;
-  }
-  */
-
-
-  .text-center * {
+  /* .text-center * {
     border: 2px solid rgb(2, 209, 2);
-  }
+  } */
   .texto-moveis {
     background-color: #d9d9d9;
     color: #203843;
+    width: 100%;
+    padding-top: 140px;
+    padding-bottom: 140px;
 
   }
   
   .botao-orcamento {
     background-color: #203843;
-    color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .botao-orcamento button {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #d9d9d9;
+    color: #FFFFFF;
+    font-size: 38pt;
+    background: url(/Images/Imagem-orcamento.png);
+  }
+
+  .botao-orcamento img {
+    margin-bottom: 20px;
+    
   }
 
 
@@ -269,29 +273,17 @@
 
       #carouselExample {
         margin-top: 0px;
-        margin-bottom: 10px;
+        margin-bottom: 40px;
         display: block;
       }
 
-      /*Orçamento*/
-
-      /*.orcamento {
-        display: contents;
+      .carousel-item img {
+        height: 400px;
       }
 
-      .texto-moveis {
-        background-color: #d9d9d9;
-        width: auto;
-        margin-top: 20px;
-        margin-left: 0px;
-        margin-bottom: 0px;
+      /* Orçamento */
+
+      .orcamento {
+        display: none;
       }
-
-      .botao-orcamento {
-        width: auto;
-        margin-top: 0px;
-        margin-right: 0px;
-        margin-bottom: 20px;
-      }*/
-
   }
