@@ -102,6 +102,10 @@ main > img {
   height: auto;
 }
 
+/*conteúdo*/
+
+
+
 /*Versão Mobile*/
 @media(max-width: 991px) {
   .btnSolicitarOrcamento {
@@ -135,9 +139,7 @@ main > img {
     text-align: center;
   }
 
-  .demaisInformacoes {
-    padding-right: 0px;
-    padding-left: 0px;
-  }
+  /*conteúdo*/
+  
 
 }
