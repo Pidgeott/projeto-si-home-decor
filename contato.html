@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="./Images/Logo - Oficial.png">
 
-  <title>S&I Home Decor - Quem Somos</title>
+  <title>S&I Home Decor - Contato</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -70,7 +70,7 @@
         </div>
       </div>
     </div>
-    
+    <div class="line-image"></div>
    
     <div class="contact-icon">
       <div class="background-circle">
@@ -81,14 +81,14 @@
     </div>
 
     <div class="container-form">
-      <form>
+      <form class="form-01" action="https://formsubmit.co/vinicius_souzagarcia@hotmail.com" method="POST">
         <div class="form-group">
-          <label for="name">Nome:</label>
-          <input type="text" id="name" name="name" font-family="Noto" placeholder="Nome completo" required>
+          <label for="name" >Nome:</label>
+          <input type="text" id="name" name="name" font-family="Noto" placeholder=" Nome completo" required>
         </div>
         <div class="form-group">
           <label for="telefone">Telefone:</label>
-          <input type="tel" id="telefone" font-family="Noto" pattern="^\([1-9]{2}\) [2-9][0-9]{3,4}\-[0-9]{4}$" placeholder="(XX) XXXX-XXXX" maxlength="15" required>       
+          <input type="tel" id="telefone" name="phone" font-family="Noto" pattern="^\([1-9]{2}\) [2-9][0-9]{3,4}\-[0-9]{4}$" placeholder=" (00) 00000-0000" maxlength="15" required>       
           
           <script>
             const telefoneInput = document.getElementById('telefone');
@@ -107,43 +107,45 @@
               }
             });
           </script>
-          
-          
-        
+
         </div>
 
         <div class="form-group">
           <label for="email">E-mail:</label>
-          <input type="email" id="email" name="email" font-family="Noto" placeholder="E-mail" required>
+          <input type="email" id="email" name="email" font-family="Noto" placeholder=" E-mail" required>
         </div>
         <div class="form-group">
           <label for="assunto">Assunto:</label>
-          <input type="text" id="assunto" name="assunto" font-family="Noto" required placeholder="Assunto">
+          <input type="text" id="assunto" name="subject" font-family="Noto" required placeholder=" Assunto">
         </div>
         <div class="form-group">
           <label for="message">Mensagem:</label>
           <textarea id="message" name="message" rows="5" font-family="Noto" required placeholder="Digite sua menssagem..."></textarea>
         </div>
 
+        <div class="g-recaptcha" data-sitekey="<!-- ADD YOUR SITE KEY HERE -->"></div>
+
         <div class="container-button">
         <div class="form-group">
           <button type="submit">Enviar</button>
         </div>
         </div>
-
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/contato.html">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="New submission!">
       </form>
     </div>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
     <div class="container-text-line">
       <div class="container-text-fale-conosco">
         <h2>Entre em contato através...</h2>
       </div>
-    
-     
-    
-
+ 
 
     <div class="container-icons-phone-mail">
+
       <div class="contact-icon-phone">
         <div class="contact-icon">
           <div class="background-circle">
@@ -156,7 +158,8 @@
           <p><b>Telefone:</b> (11) 95916-0096</p>
         </div>
       </div>
-      <div class="line-between-icons"></div>
+
+      
       <div class="contact-icon-mail">
         <div class="contact-icon">
           <div class="background-circle">
@@ -170,6 +173,28 @@
           <p><b>E-mail:</b> sihomedecor@gmail.com</p>
         </div>
       </div>
+
+
+
+      <div class="contact-icon-location">
+        <div class="contact-icon">
+          <div class="background-circle">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+              <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+              <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+            </svg>
+          </div>
+        </div>
+        <div class="text-location">
+          <p>
+            <b>Endereço:</b> Rua Antônio Loti, 8 - Jardim Zaira<br>
+            São Paulo | SP<br>
+            CEP.: 04405-230
+          </p>
+        </div>
+        
+      </div>
+      
     </div>
     
     
