@@ -101,78 +101,24 @@
     margin-bottom: 10px;
   }
 
-  /*Texto de colecoes*/
-
-  .text-colecoes {
-    background-color: #d9d9d9;
-    display: block;
-    text-align: left;
-    margin-top: 40px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 40px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    width: auto;
-  }
-
-  .risco-colecoes {
-    background-color: #203843;
-    width: 90px;
-    height: 3px;
-  }
-
-  .text-colecoes h1 {
-    padding-top: 6px;
-    font-size: 15pt;
-    color: #203843;
-  }
-
-  .text-colecoes p {
-    font-size: 15pt;
-  }
-
-  /*Imagens*/
-
-  .fotos-colecoes {
-    border: 2px solid rgb(2, 209, 2);
-    margin-left: 100px;
-    margin-right: 100px;
-    width: auto;
-  }
-  
-  .fc-v1 {
-    height: 700px !important;
-  }
-
-  .fc-v2 {
-    height: 600px !important;
-  }
-
-  #carouselExample {
-    display: none;
-  }
-
   /*Orçamento*/
 
   .orcamento {
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 55%;
+    width: 50%;
+    background-color: #d9d9d9;
   }
 
   /* .text-center * {
     border: 2px solid rgb(2, 209, 2);
   } */
-  .texto-moveis {
-    background-color: #d9d9d9;
+
+  .texto-moveis h1{
     color: #203843;
     width: 100%;
-    padding-top: 136px;
-    padding-bottom: 136px;
-
+    padding-left: 50px;
+    padding-right: 50px;
   }
   
   .botao-orcamento {
@@ -187,40 +133,23 @@
     padding-bottom: 50px;
     background-color: #d9d9d9;
     color: #FFFFFF;
-    font-size: 38pt;
+    font-size: 30pt;
     background: url(/Images/Imagem-orcamento.png);
   }
 
+  .botao-orcamento h1 {
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
   .botao-orcamento:hover {
-    color: #d9d9d9;
+    color: #C1A994;
   }
 
   .botao-orcamento img {
     margin-bottom: 20px;
   }
-
-  .hover-zoomin a {
-    display: block;
-    position: relative;
-    overflow: hidden;
-  }
-  .hover-zoomin img {
-    height: auto;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-  }
-  .hover-zoomin:hover img {
-    -webkit-transform: scale(1.05);
-    -moz-transform: scale(1.05);
-    -o-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    transform: scale(1.05);
-  }
-
-  
   
   /*Versão Mobile*/
   @media(max-width: 991px) {
@@ -249,7 +178,7 @@
   
     .col-md-4 {
       display: flex;
-      flex-direction: column;test-orca
+      flex-direction: column;
       align-items: center;
       justify-content: center;
       text-align: center;
@@ -259,51 +188,6 @@
       padding-right: 0px;
       padding-left: 0px;
     }
-
-    /*Texto coleções*/
-
-    .text-colecoes {
-        margin-top: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding-left: 30px;
-        padding-right: 20px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-
-    .risco-colecoes {
-        background-color: #203843;
-        width: 30px;
-        height: 3px;
-      }
-    
-      .text-colecoes h1 {
-        padding-top: 12px;
-        font-size: 10pt;
-        color: #203843;
-      }
-    
-      .text-colecoes p {
-        font-size: 10pt;
-        padding-top: 8px;
-      }
-
-      /*Imagens*/
-
-      .fotos-colecoes {
-        display: none;
-      }
-
-      #carouselExample {
-        margin-top: 0px;
-        margin-bottom: 40px;
-        display: block;
-      }
-
-      .carousel-item img {
-        height: 400px;
-      }
 
       /* Orçamento */
 
