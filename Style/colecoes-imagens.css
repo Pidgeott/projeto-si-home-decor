@@ -6,14 +6,6 @@
     margin-right: 100px;
     width: auto;
   }
-  
-  /*.fc-v1 {
-    height: 700px !important;
-  }
-
-  .fc-v2 {
-    height: 600px !important;
-  }*/
 
   #carouselExample {
     display: none;
@@ -61,13 +53,3 @@
     }
 
 }
-
-/*@media (max-width: 1680px){
-    .fc-v1 {
-    height: auto !important;
-  }
-
-  .fc-v2 {
-    height: auto !important;
-  }
-}*/
