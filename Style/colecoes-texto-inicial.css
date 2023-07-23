@@ -14,6 +14,7 @@
     padding-top: 40px;
     padding-bottom: 40px;
     width: auto;
+
   }
   
   .risco-colecoes {
@@ -26,6 +27,7 @@
     padding-top: 6px;
     font-size: 15pt;
     color: #203843;
+    font-weight: bold;
   }
   
   .text-colecoes p {
