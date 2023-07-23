@@ -1,0 +1,58 @@
+/*Orçamento*/
+
+.orcamento {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 50%;
+    background-color: #d9d9d9;
+  }
+
+  /* .text-center * {
+    border: 2px solid rgb(2, 209, 2);
+  } */
+
+  .texto-moveis h1{
+    color: #203843;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .botao-orcamento {
+    background-color: #203843;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .botao-orcamento button {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #d9d9d9;
+    color: #FFFFFF;
+    font-size: 30pt;
+    background: url(/Images/Imagem-orcamento.png);
+  }
+
+  .botao-orcamento h1 {
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .botao-orcamento:hover {
+    color: #C1A994;
+  }
+
+  .botao-orcamento img {
+    margin-bottom: 20px;
+  }
+  
+  /*Versão Mobile*/
+  @media(max-width: 991px) {
+    
+
+      .orcamento {
+        display: none;
+      }
+  }
