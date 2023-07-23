@@ -3,7 +3,7 @@ function showCustomAlert(message, type) {
     const alertText = document.getElementById("alert-text");
     alertText.textContent = message;
   
-    customAlert.className = "custom-alert " + type; // Adicione a classe de tipo desejado
+    customAlert.className = "custom-alert " + type; 
     customAlert.style.display = "block";
     setTimeout(() => {
       customAlert.style.display = "none";
@@ -11,7 +11,7 @@ function showCustomAlert(message, type) {
   }
   
   function exibirMensagemEnviada() {
-    showCustomAlert("Mensagem enviada!", "success"); // Usamos "success" para indicar uma mensagem de sucesso
+    showCustomAlert("Mensagem enviada!", "success"); 
   }
   
   function handleSubmit(event) {
