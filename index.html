@@ -16,7 +16,8 @@
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
   <link rel="stylesheet" href="/Style/footer_head.css">
-  <link rel="stylesheet" href="Style/index.css">
+  <link rel="stylesheet" href="Style/index-texto-inicial.css">
+  <link rel="stylesheet" href="Style/index-destaque.css">
 
 </head>
 
@@ -59,68 +60,99 @@
   </nav>
 
   <main>
-    <section class="informacoes">
-      <img src="Images/moveis-planejados-0.jpg" class="informacoes_img_inicial" alt="Imagem moveis">
+    <div class="container-image-01">
+      <div class="image-01">
+        
+      </div>
+      <div class="text-title">
+        <div class="text-01">
+          <h1>S&I Home Decor</h1>
+        </div>
+        <div class="text-02">
+          <h2>Descubra a beleza e qualidade do trabalho feito à mão. <br>
+            Entre em contato e transforme sua casa.</h2>
+        </div>
+      </div>
+    </div>
 
-      <div class="informacao_texto">
-        <h1 class="informacoes_titulo">O que fazemos:</h1>
-        <ul class="informacoes_lista">
+    <section class="informacoes">
+      <div class="container-fluid text-colecoes ">
+        <div class="risco-colecoes"></div>
+        <h2>O que Fazemos:</h1>
+        <ul>
           <li>
-            Planejamento de cozinha
+            <h5>Móveis personalizados, design exclusivo</h5>
+            <p>Móveis personalizados com design exclusivo são uma abordagem única e inovadora para a decoração de espaços. Ao optar por móveis personalizados, os clientes têm a oportunidade de criar peças sob medida que se adequem perfeitamente às suas necessidades e preferências estéticas.</p>
           </li>
           <li>
-            Movéis Planejados
+            <h5>Móveis planejados para sua Cozinha, Sala, Banheiros & Quartos</h5>
+            <p>Representam a solução ideal para transformar ambientes residenciais em espaços funcionais, organizados e com design personalizado. Ao optar por móveis planejados, os clientes têm a oportunidade de criar ambientes que se adaptam perfeitamente às suas necessidades e estilo de vida.</p>
           </li>
           <li>
-            Reparos e Restaurações
+            <h5>Acabamentos personalizados, detalhes arquitetônicos únicos</h5>
+            <p>São elementos essenciais para conferir distinção e sofisticação a qualquer projeto de design de interiores ou arquitetura. Ao optar por acabamentos personalizados, os ambientes ganham um toque exclusivo, que vai além das opções padrão encontradas no mercado.</p>
           </li>
         </ul>
-      </div>
+    </div>
     </section>
 
-    <section class="colecao-img">
+
+    <!-- Destaque -->
+
+    <div class="container fotos-destaque">
       <h1>Projeto em Destaque:</h1>
-      <div class="image-container">
-        <img src="Images/img77.jpeg" alt="">
-        <img src="Images/img46.jpeg" alt="">
-        <img src="Images/img09.jpeg" alt="">
-      </div>
-    </section>
-
-    <section class="destaque">
-      <h1 class="destaque_titulo">Projetos em Destaque: </h1>
-      <div id="carouselExampleIndicators" class="carousel slide destaque_carrosel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <div class="row img">
+        <div class="col-4">
+          <img src="Images/img77.jpeg" alt="">
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="Images/img77.jpeg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="Images/img46.jpeg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+        <div class="col-4">
+          <img src="Images/img46.jpeg" alt="">
+        </div>
+        <div class="col-4">
+          <img src="Images/img17-modified-v2.jpeg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div id="carouselExample" class="carousel slide">
+      <h1>Projeto em Destaque:</h1>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/Images/img77.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/Images/img42-modified.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/Images/img46.jpeg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <!-- Redirecionamento para Projetos-->
+
+    <div class="container redi-colecoes">
+      <div class="row text-center">
+        <div class="col-12">
+          <div class="image-container">
+            <img src="Images/moveis-planejados-cozinha-951x563.jpg.webp" class="img-fluid" alt="">
+            <div class="image-text">
+              <a href="colecoes.html" class="image-text-link">Conheça nossos Projetos</a>
+            </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-    </section>
-
-    <section class="Projetos">
-      <a href="colecoes.html">Conheça nossos Projetos</a>
-      <img src="Images/moveis-planejados-cozinha-951x563.jpg.webp" alt="">
-    </section>
+    </div>
+    
     
   </main>
 
