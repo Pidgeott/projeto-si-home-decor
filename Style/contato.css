@@ -1,316 +1,315 @@
 img {
-    width: 100%;
-  }
-  
-  p {
-    font-size: 20px;
-  }
-  
-  .header {
-    background-color: #203843;
-  }
-  
-  .imgHeader {
-    width: 70px;
-  }
-  
-  .navbar-nav .nav-item {
-    margin-right: 20px;
-  }
-  
-  .btnSolicitarOrcamento {
-    background-color: #C1A994;
-    color: #203843;
-    border-radius: 2px;
-    width: 191.25px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-  }
-  
-  .btnSolicitarOrcamento:hover {
-    background-color: #DDBDA0;
-    color: #203843;
-  }
-  
-  .nav-item>a {
-    color: aliceblue;
-  }
-  
-  .nav-item a.active {
-    border-bottom: 2px solid #C1A994;
-    color: #FFF !important;
-  }
-  
-  .nav-item a:hover {
-    color: #C1A994;
-  }
-  
-  .navbar-toggler {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-  
-  }
-  
-  .bi-list {
-    color: #C1A994;
-    font-size: 50px;
-  }
-  
-  .line {
-    width: 100px;
-    border-top: 3px solid #203843;
-    content: '';
-    position: absolute;
-    margin-top: -10px;
-  }
-  
-  
-  .btnSolicitarOrcamentoSobre {
-    background-color: #203843;
-    color: #d9d9d9;
-    border-radius: 2px;
-    width: 191.25px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-  }
-  
-  .btnSolicitarOrcamentoSobre:hover {
-    background-color: #47555C;
-    color: #d9d9d9;
-  }
-  
-  footer {
-    background-color: #203843;
-  }
-  
-  .imgFooter {
-    width: 170px;
-  }
-  
-  .redesSociais>a {
-    margin-top: 5px;
-    margin-left: 20px;
-    color: #d9d9d9;
-    font-size: 25px;
-    margin-bottom: 10px;
-  }
-  
-  .bi-instagram {
-    margin-left: -15px;
-  }
-  
-  .redesSociais>a:hover {
-    color: #C1A994;
-    transition: 0.25s;
-  }
-  
-  .iconesInformacoes>i {
-    color: #d9d9d9;
-    font-size: 25px;
-  }
-  
-  .iconesInformacoes>p {
-    color: #d9d9d9;
-    font-size: 15px;
-    padding-top: 15px;
-    margin-left: 10px;
-  }
-  
-  .iconesInformacoesDir>p {
-    color: #d9d9d9;
-    font-size: 15px;
-    margin-bottom: 0px;
-  }
+  width: 100%;
+}
 
-  .image-01
-  {
-    width: 100%;
-    height: 300px;
-  }
-  
-  .demaisInformacoes {
-    padding-right: 0px;
-    padding-left: 150px;
-    margin-bottom: 10px;
-  }
+p {
+  font-size: 20px;
+}
 
-  /*Código acrescentado Matheus - Web*/
+.header {
+  background-color: #203843;
+}
 
-  .container-image-01 {
-    position: relative;
+.imgHeader {
+  width: 70px;
+}
 
-  
-  }
-  .image-01{
-    height: 700px;
-    width: 100%;
-    background-image: url("/Images/close-de-carpinteiro.jpg");
-    filter: blur(1px);
-    -webkit-filter: blur(1px);
-     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-  }
-  
-  .text-title {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-    color: white;
-    font-weight: bold;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 100%;
-    height: 100%;
-    padding: 20px;
+.navbar-nav .nav-item {
+  margin-right: 20px;
+}
+
+.btnSolicitarOrcamento {
+  background-color: #C1A994;
+  color: #203843;
+  border-radius: 2px;
+  width: 191.25px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.btnSolicitarOrcamento:hover {
+  background-color: #DDBDA0;
+  color: #203843;
+}
+
+.nav-item>a {
+  color: aliceblue;
+}
+
+.nav-item a.active {
+  border-bottom: 2px solid #C1A994;
+  color: #FFF !important;
+}
+
+.nav-item a:hover {
+  color: #C1A994;
+}
+
+.navbar-toggler {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+
+}
+
+.bi-list {
+  color: #C1A994;
+  font-size: 50px;
+}
+
+.line {
+  width: 100px;
+  border-top: 3px solid #203843;
+  content: '';
+  position: absolute;
+  margin-top: -10px;
+}
+
+
+.btnSolicitarOrcamentoSobre {
+  background-color: #203843;
+  color: #d9d9d9;
+  border-radius: 2px;
+  width: 191.25px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.btnSolicitarOrcamentoSobre:hover {
+  background-color: #47555C;
+  color: #d9d9d9;
+}
+
+footer {
+  background-color: #203843;
+}
+
+.imgFooter {
+  width: 170px;
+}
+
+.redesSociais>a {
+  margin-top: 5px;
+  margin-left: 20px;
+  color: #d9d9d9;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.bi-instagram {
+  margin-left: -15px;
+}
+
+.redesSociais>a:hover {
+  color: #C1A994;
+  transition: 0.25s;
+}
+
+.iconesInformacoes>i {
+  color: #d9d9d9;
+  font-size: 25px;
+}
+
+.iconesInformacoes>p {
+  color: #d9d9d9;
+  font-size: 15px;
+  padding-top: 15px;
+  margin-left: 10px;
+}
+
+.iconesInformacoesDir>p {
+  color: #d9d9d9;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+.image-01 {
+  width: 100%;
+  height: 300px;
+}
+
+.demaisInformacoes {
+  padding-right: 0px;
+  padding-left: 150px;
+  margin-bottom: 10px;
+}
+
+/*Código acrescentado Matheus - Web*/
+
+.container-image-01 {
+  position: relative;
+
+
+}
+
+.image-01 {
+  height: 700px;
+  width: 100%;
+  background-image: url("/Images/close-de-carpinteiro.jpg");
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.text-title {
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
 }
 
 .text-title .text-01 h1 {
-    font-size: 60px;
-    margin-bottom: 50px;
-    text-align: center !important;
-    margin-top: 150px;
+  font-size: 60px;
+  margin-bottom: 50px;
+  text-align: center !important;
+  margin-top: 150px;
 }
 
 .text-title .text-02 h2 {
-    font-size: 30px;
-    margin-bottom: 0;
-    color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    text-align: center !important;
+  font-size: 30px;
+  margin-bottom: 0;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center !important;
 }
 
-.line-image{
+.line-image {
   width: 100%;
   height: 10px;
   background-color: #203843;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-  .container-form {
-    width: 100%;
-    max-width: 700px;
-    margin: 80px auto 0;
-    padding: 50px;
-    background-color: #D9D9D9;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    }
-  
-  .form-group {
-    margin-top: 20px;
-    justify-content: center;
-  }
-  
-  .form-group label {
-    display: block;
-    margin-bottom: 5px;
-    font-family: 'Noto Sans';
-    font-size: 22px;
-    letter-spacing: 0.5px;
-  }
-  
-  .form-group input {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 50px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 20px;
-    font-family: 'Noto Sans';
+.container-form {
+  width: 100%;
+  max-width: 700px;
+  margin: 80px auto 0;
+  padding: 50px;
+  background-color: #D9D9D9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
 
-  }
+.form-group {
+  margin-top: 20px;
+  justify-content: center;
+}
 
-  .form-01 input .input-value{
-    position: absolute;
-    top: 0;
-    left: 1;
-    font-size: 24px; 
-    visibility: hidden;
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-family: 'Noto Sans';
+  font-size: 22px;
+  letter-spacing: 0.5px;
+}
 
-  }
+.form-group input {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: 'Noto Sans';
 
-  .form-group input::placeholder,
-  .form-group textarea::placeholder
-  {
-    font-size: 18px;
-    letter-spacing: 1px;
-    padding-left: 3px;
-  }
-  
-  .form-01 textarea .textarea-value{
-    padding: 8px;
-    height: 100px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    resize:none;
-    font-family: 'Noto Sans';
-  }
+}
 
-  .form-group textarea {
-    width: 100%;
-    padding: 8px;
-    height: 100px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    resize:none;
-    font-family: 'Noto Sans';
-    font-size: 20px;
-  }
-  
-  .form-group button {
-    
-    padding: 10px 100px;
-    background-color: #203843;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    font-size: 25px;
-    cursor: pointer;
-  }
+.form-01 input .input-value {
+  position: absolute;
+  top: 0;
+  left: 1;
+  font-size: 24px;
+  visibility: hidden;
 
-  .container-button
-  {
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-  }
+}
 
-  .container-button :hover
-  {
-      color: #C1A994;
-  }
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding-left: 3px;
+}
 
-  .background-circle {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: #203843;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 500;
-    margin-left: 500;
-  }
+.form-01 textarea .textarea-value {
+  padding: 8px;
+  height: 100px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+  font-family: 'Noto Sans';
+}
 
-  .background-circle svg {
-    width: 50px;
-    height: 50px;
-    fill: #C1A994;
-    
-  }
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  height: 100px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+  font-family: 'Noto Sans';
+  font-size: 20px;
+}
 
-.contact-icon{
+.form-group button {
+
+  padding: 10px 100px;
+  background-color: #203843;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.container-button {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.container-button :hover {
+  color: #C1A994;
+}
+
+.background-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #203843;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 500;
+  margin-left: 500;
+}
+
+.background-circle svg {
+  width: 50px;
+  height: 50px;
+  fill: #C1A994;
+
+}
+
+.contact-icon {
   display: flex;
   margin-top: 100px;
   justify-content: center;
@@ -318,15 +317,15 @@ img {
 }
 
 
-.container-text-fale-conosco
-{
+.container-text-fale-conosco {
   margin-top: 100px;
   display: flex;
   justify-content: center;
   font-family: 'Noto Sans';
   margin-bottom: 20px;
 }
-.container-text-line{
+
+.container-text-line {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -356,21 +355,23 @@ img {
 
 .contact-icon-mail {
   margin-left: 280px;
-  
+
 }
-.contact-icon-location{
+
+.contact-icon-location {
   margin-left: 150px;
 }
+
 .text-location p {
   text-align: center !important;
 }
 
 
-.container-icons-phone-mail p
-{
-   padding-top: 180px;
-   font-size: 25px;
+.container-icons-phone-mail p {
+  padding-top: 180px;
+  font-size: 25px;
 }
+
 .line-between-icons {
   width: 3px;
   height: 150px;
@@ -378,7 +379,8 @@ img {
   margin: 0 50px;
   margin-top: 100px;
 }
-.map-box{
+
+.map-box {
   margin-top: -300px;
   width: 100%;
   height: 502px;
@@ -389,14 +391,14 @@ img {
   justify-content: center;
 }
 
-.line-03{
+.line-03 {
   background-color: #203843;
   margin-bottom: 300px;
   width: 100%;
   height: 10px;
 }
 
-.line-04{
+.line-04 {
   background-color: #203843;
   margin-top: -50px;
   margin-bottom: 50px;
@@ -406,31 +408,32 @@ img {
 
 /*================================*/
 /* contato.css */
-    
+
 .custom-alert {
   position: fixed;
-  top: 20px; 
+  top: 20px;
   left: 50%;
   transform: translateX(-50%);
   color: #fff;
-  padding: 30px; 
+  padding: 30px;
   border-radius: 5px;
   z-index: 999;
-  display: none; 
+  display: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 100%;   
+  max-width: 100%;
 }
 
 .custom-alert.success {
-  background-color: #4caf50; 
-  color: #fff;}
+  background-color: #4caf50;
+  color: #fff;
+}
 
 .custom-alert.warning {
-  background-color: #203843; 
+  background-color: #203843;
 }
 
 .custom-alert p {
-  margin: 0; 
+  margin: 0;
   font-size: 16px;
   font-family: 'Noto Sans';
   font-weight: 500;
@@ -444,258 +447,261 @@ img {
 
 
 
-  
-  /*Versão Mobile*/
-  @media(max-width: 1000px) {
-  
-    .btnSolicitarOrcamento {
-      background-color: #C1A994;
-      color: #203843;
-      border-radius: 2px;
-      width: 191.25px;
-      display: flex;
-    }
-  
-    .line {
-      width: 100px;
-      border-top: 3px solid #203843;
-      content: '';
-      position: relative;
-      bottom: 2em;
-      margin-left: 0px;
-      margin-top: 60px;
-      margin-bottom: 0px;
-    }
-  
-    .navbar-nav {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      width: 100%;
-    }
-  
-    .imgDivFooter {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
-  
-    .col-md-4 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-    }
-  
-    .demaisInformacoes {
-      padding-right: 0px;
-      padding-left: 0px;
-    }
-  
-    .firstDiv {
-      margin: 30px 10px 30px 10px;
-      padding: 30px 30px 30px 30px;
-      background-color: #D9D9D9;
-    }
-  
-    .firstImg {
-      width: 100%;
-    }
-  
-    .textoSobre {
-      margin-top: -20px;
-    }
-  
-    p {
-      font-size: 15px;
-    }
-  
-    .secondDiv {
-      margin: 30px 10px 30px 10px;
-      padding: 30px 30px 0px 30px;
-      background-color: #ffffff;
-    }
-  
-    .secondImg {
-      width: 100%;
-    }
-  
-    .textoSobre2 {
-      margin-top: 50px;
-      margin-bottom: 25px;
-    }
-  
-    .line2 {
-      width: 100px;
-      border-top: 3px solid #203843;
-      content: '';
-      position: relative;
-      margin-left: 0px;
-      margin-top: 30px;
-      margin-bottom: -40px;
-    }
-  
-    .line3 {
-      width: 100px;
-      border-top: 3px solid #203843;
-      content: '';
-      position: relative;
-      margin-left: 0px;
-      margin-top: 0px;
-      margin-bottom: 10px;
-    }
-  
-    .btnSolicitarOrcamentoSobre {
-      background-color: #203843;
-      color: #d9d9d9;
-      border-radius: 2px;
-      width: 191.25px;
-      display: flex;
-    }
 
-    /* Código acrescentado Matheus - Mobile */
+/*Versão Mobile*/
+@media(max-width: 1000px) {
 
-    .image-01{
-      height: 300px;
-      margin-bottom: -50px;
-    }
-    .line-image{
-      width: 100%;
-      margin-top: 50px;
-      height: 6px;
-      background-color: #203843;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    }
-  
-   
-    .container-form {
-      margin-top: 100px;
-      display: flex;
-      padding: 20px;
-      justify-content: center;
-      width: 95%;
-    }
-    .container-form label{
-      font-size: 100px;
-    }
-
-    .form-01
-    {
-      width: 100%;
-    }
-
-    .form-group {
-      margin-top: 20px;
-    }
-  
-    .background-circle {
-      width: 60px;
-      height: 60px;
-      border-radius: 50%;
-      background-color: #203843;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .background-circle svg {
-      width: 30px;
-      height: 30px;
-      fill: #C1A994;
-    }
-    .contact-icon{
-      display: flex;
-      margin-top: 100px;
-      justify-content: center;
-      margin-bottom: -135px;
-    }
-
-    .form-group label {
-      display: block;
-      margin-bottom: 5px;
-      font-family: 'Noto Sans';
-      font-size: 18px;
-    }
-    
-    .form-group input {
-      display: flex;
-      justify-content: center;
-      width: 100%;
-      height: 40px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      font-size: 16px;
-    }
-    .form-group textarea{
-      font-size: 16px;
-    }
-   
-    
-    .form-group button {
-    
-      padding: 10px 100px;
-      background-color: #203843;
-      color: #fff;
-      border: none;
-      border-radius: 4px;
-      font-size: 20px;
-      cursor: pointer;
-    }
-
-    .container-text-fale-conosco h2
-    {
-      font-size: 20px;
-    }
-
-    .container-text-fale-conosco{
-      margin-bottom: -50px;
-    }
-
-  
-    .container-icons-phone-mail {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-bottom: 3px;
-    }
-    
-    .contact-icon-phone,
-    .contact-icon-mail,
-    .contact-icon-location
-    {
-      margin: 15px 0;
-    }
-
-    .text-phone-number p 
-    {
-        font-size: 18px; 
-    }
-    .text-mail p
-    {
-      font-size: 18px; 
-    }
-    
-    .text-location p 
-    {
-      font-size: 18px; 
-    }
-  .map-box iframe{
-      width: 100%;
+  .btnSolicitarOrcamento {
+    background-color: #C1A994;
+    color: #203843;
+    border-radius: 2px;
+    width: 191.25px;
+    display: flex;
   }
+
+  .line {
+    width: 100px;
+    border-top: 3px solid #203843;
+    content: '';
+    position: relative;
+    bottom: 2em;
+    margin-left: 0px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+  }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .imgDivFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .demaisInformacoes {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .firstDiv {
+    margin: 30px 10px 30px 10px;
+    padding: 30px 30px 30px 30px;
+    background-color: #D9D9D9;
+  }
+
+  .firstImg {
+    width: 100%;
+  }
+
+  .textoSobre {
+    margin-top: -20px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .secondDiv {
+    margin: 30px 10px 30px 10px;
+    padding: 30px 30px 0px 30px;
+    background-color: #ffffff;
+  }
+
+  .secondImg {
+    width: 100%;
+  }
+
+  .textoSobre2 {
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+
+  .line2 {
+    width: 100px;
+    border-top: 3px solid #203843;
+    content: '';
+    position: relative;
+    margin-left: 0px;
+    margin-top: 30px;
+    margin-bottom: -40px;
+  }
+
+  .line3 {
+    width: 100px;
+    border-top: 3px solid #203843;
+    content: '';
+    position: relative;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+
+  .btnSolicitarOrcamentoSobre {
+    background-color: #203843;
+    color: #d9d9d9;
+    border-radius: 2px;
+    width: 191.25px;
+    display: flex;
+  }
+
+  /* Código acrescentado Matheus - Mobile */
+
+  .image-01 {
+    height: 300px;
+    margin-bottom: -50px;
+  }
+
+  .line-image {
+    width: 100%;
+    margin-top: 50px;
+    height: 6px;
+    background-color: #203843;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+
+  .container-form {
+    margin-top: 100px;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    width: 95%;
+  }
+
+  .container-form label {
+    font-size: 100px;
+  }
+
+  .form-01 {
+    width: 100%;
+  }
+
+  .form-group {
+    margin-top: 20px;
+  }
+
+  .background-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #203843;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .background-circle svg {
+    width: 30px;
+    height: 30px;
+    fill: #C1A994;
+  }
+
+  .contact-icon {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    margin-bottom: -135px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Noto Sans';
+    font-size: 18px;
+  }
+
+  .form-group input {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  .form-group textarea {
+    font-size: 16px;
+  }
+
+
+  .form-group button {
+
+    padding: 10px 100px;
+    background-color: #203843;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .container-text-fale-conosco h2 {
+    font-size: 20px;
+  }
+
+  .container-text-fale-conosco {
+    margin-bottom: -50px;
+  }
+
+
+  .container-icons-phone-mail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3px;
+  }
+
+  .contact-icon-phone,
+  .contact-icon-mail,
+  .contact-icon-location {
+    margin: 15px 0;
+  }
+
+  .text-phone-number p {
+    font-size: 18px;
+  }
+
+  .text-mail p {
+    font-size: 18px;
+  }
+
+  .text-location p {
+    font-size: 18px;
+  }
+
+  .map-box iframe {
+    width: 100%;
+  }
+
   .map-box {
 
     margin-top: 80px;
     width: 100%;
   }
-  .line-03{
-     margin-top: 80px;
+
+  .line-03 {
+    margin-top: 80px;
     width: 100%;
     margin-bottom: -80px;
   }
-  .line-04{
+
+  .line-04 {
     width: 100%;
   }
 
@@ -706,40 +712,41 @@ img {
     white-space: nowrap;
     font-family: 'Noto Sans';
   }
-  
+
   .text-title .text-02 h2 {
     font-size: 15px;
     margin-bottom: 0;
     white-space: nowrap;
     font-family: 'Noto Sans';
   }
+
   .form-group input::placeholder,
-  .form-group textarea::placeholder
-  {
+  .form-group textarea::placeholder {
     font-size: 14px;
     letter-spacing: 1px;
     padding-left: 3px;
   }
 
-  .container-button :hover
-  {
-      color: #C1A994;
+  .container-button :hover {
+    color: #C1A994;
   }
+
   .text-title .text-01 h1 {
     margin-top: 60px;
   }
-  .image-01{
+
+  .image-01 {
     width: 100%;
     background-image: url("/Images/close-de-carpinteiro.jpg");
-     background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
   }
-  
+
   .text-title {
-    background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0, 0.4); 
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
     font-weight: bold;
     position: absolute;
     top: 50%;
@@ -749,43 +756,39 @@ img {
     width: 100%;
     height: 100%;
     padding: 20px;
-}
-
-
-.custom-alert {
-  position: fixed;
-  top: 20px; 
-  left: 50%;
-  transform: translateX(-50%);
-  color: #fff;
-  padding: 12px; 
-  border-radius: 5px;
-  z-index: 999;
-  display: none; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 100%;   
-}
-
-.custom-alert.success {
-  background-color: #4caf50; 
-  color: #fff;}
-
-.custom-alert.warning {
-  background-color: #203843; 
-}
-
-.custom-alert p {
-  margin: 0; 
-  font-size: 16px;
-  font-family: 'Noto Sans';
-  font-weight: 500;
-  text-align: center;
-}
-  
-  
   }
 
 
+  .custom-alert {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    padding: 12px;
+    border-radius: 5px;
+    z-index: 999;
+    display: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+  }
+
+  .custom-alert.success {
+    background-color: #4caf50;
+    color: #fff;
+  }
+
+  .custom-alert.warning {
+    background-color: #203843;
+  }
+
+  .custom-alert p {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Noto Sans';
+    font-weight: 500;
+    text-align: center;
+  }
 
 
-  
+}

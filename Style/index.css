@@ -39,51 +39,51 @@
 }
 
 @media(min-width: 1200px) {
-    .informacoes {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      
-      }
-      
-      .informacoes_img_inicial {
-        height: 600px;
-        width: 100%;
-      
-      }
-      
-      .informacao_texto {
-        width: 70%;
-        height: 300px;
-        padding: 40px;
-        background-color: #d9d9d9;
-      
-        margin-top: 50px;
-      }
+  .informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-
-      .colecao-img h1 {
-        margin-left: 190px;
-        margin-top: 30px;
-      }
-      
-      .image-container {
-        display: flex;
-        justify-items: center;
-        width: 80%;
-        height: 800px;
-        margin: 0 190px 150px;
-      
-      }
-
-      .image-container img {
-        padding-right: 40px;
-      }
-      
-      .Projetos {
-        margin-left: 500px;
-        margin-bottom: 30px;
-      
-      }
-      
   }
+
+  .informacoes_img_inicial {
+    height: 600px;
+    width: 100%;
+
+  }
+
+  .informacao_texto {
+    width: 70%;
+    height: 300px;
+    padding: 40px;
+    background-color: #d9d9d9;
+
+    margin-top: 50px;
+  }
+
+
+  .colecao-img h1 {
+    margin-left: 190px;
+    margin-top: 30px;
+  }
+
+  .image-container {
+    display: flex;
+    justify-items: center;
+    width: 80%;
+    height: 800px;
+    margin: 0 190px 150px;
+
+  }
+
+  .image-container img {
+    padding-right: 40px;
+  }
+
+  .Projetos {
+    margin-left: 500px;
+    margin-bottom: 30px;
+
+  }
+
+}
