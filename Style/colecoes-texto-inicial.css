@@ -1,70 +1,69 @@
-
 /*Texto de colecoes*/
 
 .text-colecoes {
-    background-color: #d9d9d9;
-    display: block;
-    text-align: left;
-    margin-top: 40px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 40px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    width: auto;
+  background-color: #d9d9d9;
+  display: block;
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: auto;
 
-  }
-  
-  .risco-colecoes {
-    background-color: #203843;
-    width: 90px;
-    height: 3px;
-  }
-  
-  .text-colecoes h1 {
-    padding-top: 6px;
-    font-size: 15pt;
-    color: #203843;
-    font-weight: bold;
-  }
-  
-  .text-colecoes p {
-    font-size: 15pt;
-  }
+}
+
+.risco-colecoes {
+  background-color: #203843;
+  width: 90px;
+  height: 3px;
+}
+
+.text-colecoes h1 {
+  padding-top: 6px;
+  font-size: 15pt;
+  color: #203843;
+  font-weight: bold;
+}
+
+.text-colecoes p {
+  font-size: 15pt;
+}
 
 
 /*Versão Mobile*/
 
 @media(max-width: 991px) {
 
-     /*Texto coleções*/
+  /*Texto coleções*/
 
-     .text-colecoes {
-        margin-top: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding-left: 30px;
-        padding-right: 20px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
+  .text-colecoes {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 
-    .risco-colecoes {
-        background-color: #203843;
-        width: 30px;
-        height: 3px;
-      }
-    
-      .text-colecoes h1 {
-        padding-top: 12px;
-        font-size: 10pt;
-        color: #203843;
-      }
-    
-      .text-colecoes p {
-        font-size: 10pt;
-        padding-top: 8px;
-      }
+  .risco-colecoes {
+    background-color: #203843;
+    width: 30px;
+    height: 3px;
+  }
+
+  .text-colecoes h1 {
+    padding-top: 12px;
+    font-size: 10pt;
+    color: #203843;
+  }
+
+  .text-colecoes p {
+    font-size: 10pt;
+    padding-top: 8px;
+  }
 }
